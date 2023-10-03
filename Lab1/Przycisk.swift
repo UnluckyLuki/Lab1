@@ -10,7 +10,7 @@ import SwiftUI
 struct Przycisk: View {
     @State var znak_we : String
     var body: some View {
-        Button(znak_we){}.frame(width: 100, height: 40).border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 2).font(.largeTitle)
+        Button(znak_we){}.frame(width: 100, height: 60).border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 2).font(.largeTitle)
     }
 }
 
