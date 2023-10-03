@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F73F7A75-42DB-47BD-942C-9857DA6E6349"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C133F188-0387-4D3C-A48F-FAE38EF6A37E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lab1/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C133F188-0387-4D3C-A48F-FAE38EF6A37E - a5e8a3c6e4cf2588"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 () -&gt; SwiftUI.TupleView&lt;(Lab1.Przycisk, Lab1.Przycisk, Lab1.Przycisk)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, Lab1.Output, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(Lab1.Przycisk, Lab1.Przycisk, Lab1.Przycisk)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(Lab1.Przycisk, Lab1.Przycisk, Lab1.Przycisk)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(Lab1.Przycisk, Lab1.Przycisk, Lab1.Przycisk)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(Lab1.Przycisk, Lab1.Przycisk, Lab1.Przycisk)&gt;&gt;, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(Lab1.Przycisk, Lab1.Przycisk, Lab1.Przycisk)&gt;&gt;, Lab1.Oblicz)&gt; in Lab1.ContentView.body.getter : some"
+                  moduleName = "Lab1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/Lab1/Lab1/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  uuid = "C133F188-0387-4D3C-A48F-FAE38EF6A37E - 9061d1f11b382284"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lab1.ContentView.body.getter : some"
+                  moduleName = "Lab1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/Lab1/Lab1/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "2472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D643AD80-DD4B-4DE6-B997-C1C100720754"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lab1/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

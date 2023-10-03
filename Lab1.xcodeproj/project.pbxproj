@@ -14,6 +14,11 @@
 		3F102B582ACC5CB80099BD53 /* Lab1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F102B572ACC5CB80099BD53 /* Lab1Tests.swift */; };
 		3F102B622ACC5CB80099BD53 /* Lab1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F102B612ACC5CB80099BD53 /* Lab1UITests.swift */; };
 		3F102B642ACC5CB80099BD53 /* Lab1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F102B632ACC5CB80099BD53 /* Lab1UITestsLaunchTests.swift */; };
+		3F102B712ACC5F750099BD53 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F102B702ACC5F750099BD53 /* SwiftUIView.swift */; };
+		3F102B732ACC62BC0099BD53 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F102B722ACC62BC0099BD53 /* Function.swift */; };
+		3F102B752ACC65860099BD53 /* Przycisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F102B742ACC65860099BD53 /* Przycisk.swift */; };
+		3F102B772ACC69AA0099BD53 /* Oblicz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F102B762ACC69AA0099BD53 /* Oblicz.swift */; };
+		3F102B792ACC6A180099BD53 /* Output.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F102B782ACC6A180099BD53 /* Output.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		3F102B5D2ACC5CB80099BD53 /* Lab1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F102B612ACC5CB80099BD53 /* Lab1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1UITests.swift; sourceTree = "<group>"; };
 		3F102B632ACC5CB80099BD53 /* Lab1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F102B702ACC5F750099BD53 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		3F102B722ACC62BC0099BD53 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		3F102B742ACC65860099BD53 /* Przycisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Przycisk.swift; sourceTree = "<group>"; };
+		3F102B762ACC69AA0099BD53 /* Oblicz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oblicz.swift; sourceTree = "<group>"; };
+		3F102B782ACC6A180099BD53 /* Output.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Output.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +106,13 @@
 			children = (
 				3F102B462ACC5CB70099BD53 /* Lab1App.swift */,
 				3F102B482ACC5CB70099BD53 /* ContentView.swift */,
+				3F102B742ACC65860099BD53 /* Przycisk.swift */,
+				3F102B722ACC62BC0099BD53 /* Function.swift */,
 				3F102B4A2ACC5CB70099BD53 /* Assets.xcassets */,
 				3F102B4C2ACC5CB70099BD53 /* Preview Content */,
+				3F102B702ACC5F750099BD53 /* SwiftUIView.swift */,
+				3F102B762ACC69AA0099BD53 /* Oblicz.swift */,
+				3F102B782ACC6A180099BD53 /* Output.swift */,
 			);
 			path = Lab1;
 			sourceTree = "<group>";
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F102B752ACC65860099BD53 /* Przycisk.swift in Sources */,
 				3F102B492ACC5CB70099BD53 /* ContentView.swift in Sources */,
+				3F102B772ACC69AA0099BD53 /* Oblicz.swift in Sources */,
+				3F102B792ACC6A180099BD53 /* Output.swift in Sources */,
 				3F102B472ACC5CB70099BD53 /* Lab1App.swift in Sources */,
+				3F102B712ACC5F750099BD53 /* SwiftUIView.swift in Sources */,
+				3F102B732ACC62BC0099BD53 /* Function.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

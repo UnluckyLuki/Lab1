@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct Przycisk: View {
+    @State var znak_we : String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(znak_we){}.frame(width: 100, height: 40).border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 2).font(.largeTitle)
     }
 }
 
-#Preview {
-    Przycisk()
+struct ContentView_Przycisk: PreviewProvider{
+    static var previews: some View{
+        Przycisk(znak_we: "")
+    }
 }

@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct Output: View {
+    @State var output : String = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            TextField("", text: $output).frame(width: 315, height: 40).foregroundColor(.white).border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 2).font(.largeTitle)
+        }
     }
 }
 
-#Preview {
-    Output()
-}
+//#Preview {
+//    Output()
+//}

@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct Function {
+    func myfunc(napis: String) -> String?{
+        guard napis == "ALA" else {
+            return nil
+        }
+        return napis
+    }
+}
