@@ -8,39 +8,41 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    @State var outputText = ""
+    @State var operation = ""
+    @State var temp = ""
     var body: some View {
         VStack{
             Spacer()
-            Text("Kalkulator").font(.largeTitle)
+            Text("KALKULATOR").font(.largeTitle)
             Spacer()
-            Output()
+            Output(output: $outputText)
             HStack{
-                Przycisk(znak_we: "1")
-                Przycisk(znak_we: "2")
-                Przycisk(znak_we: "3")
+                Przycisk(znak_we: "1",output: $outputText, operation: $operation, temp: $temp)
+                Przycisk(znak_we: "2",output: $outputText, operation: $operation, temp: $temp)
+                Przycisk(znak_we: "3",output: $outputText, operation: $operation, temp: $temp)
             }
             HStack{
-                Przycisk(znak_we: "4")
-                Przycisk(znak_we: "5")
-                Przycisk(znak_we: "6")
+                Przycisk(znak_we: "4",output: $outputText, operation: $operation, temp: $temp)
+                Przycisk(znak_we: "5",output: $outputText, operation: $operation, temp: $temp)
+                Przycisk(znak_we: "6",output: $outputText, operation: $operation, temp: $temp)
             }
             HStack{
-                Przycisk(znak_we: "7")
-                Przycisk(znak_we: "8")
-                Przycisk(znak_we: "9")
+                Przycisk(znak_we: "7",output: $outputText, operation: $operation, temp: $temp)
+                Przycisk(znak_we: "8",output: $outputText, operation: $operation, temp: $temp)
+                Przycisk(znak_we: "9",output: $outputText, operation: $operation, temp: $temp)
             }
             HStack{
-                Przycisk(znak_we: "0")
-                Przycisk(znak_we: "+")
-                Przycisk(znak_we: "-")
+                Przycisk(znak_we: "0",output: $outputText, operation: $operation, temp: $temp)
+                Przycisk(znak_we: "+",output: $outputText, operation: $operation, temp: $temp)
+                Przycisk(znak_we: "-",output: $outputText, operation: $operation, temp: $temp)
             }
             HStack{
-                Przycisk(znak_we: "*")
-                Przycisk(znak_we: "/")
-                Przycisk(znak_we: "sin")
+                Przycisk(znak_we: "*",output: $outputText, operation: $operation, temp: $temp)
+                Przycisk(znak_we: "/",output: $outputText, operation: $operation, temp: $temp)
+                Przycisk(znak_we: "sin",output: $outputText, operation: $operation, temp: $temp)
             }
-            Oblicz()
+            Oblicz(temp: $temp, result: $outputText, operation: $operation)
         }
     }
     

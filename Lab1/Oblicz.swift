@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct Oblicz: View {
-//    @Binding var znak_wy : String
+    @Binding var temp : String
+    @Binding var result: String
+    @Binding var operation: String
     var body: some View {
-        ZStack{
-            Rectangle().frame(width: 315, height: 60).foregroundColor(.white).border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 2)
             Button("Oblicz"){
-//                znak_wy : $znak_we
-            }.font(.largeTitle)
-        }
+                result = String(Operations().calculate(x1: Int(temp)!, x2: Int(result)!, operation: operation)!)
+            }.font(.largeTitle).frame(width: 315, height: 60).border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 2)
     }
 }
 
-//#Preview {
-//    Oblicz()
-//}
+struct ContentView_Oblicz: PreviewProvider{
+    static var previews: some View{
+        Oblicz(temp: .constant(""), result: .constant(""), operation: .constant(""))
+    }
+}
